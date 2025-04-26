@@ -1,12 +1,11 @@
 import React from 'react'
+import Hero from './pages/Hero'
 
 const App = () => {
     return (
-        <main>
-            <div className="">
-                <h1>Welcome to my 3d portfolio!</h1>
-            </div>
-      </main>
+        <>
+            <Hero/>
+        </>
   )
 }
 
